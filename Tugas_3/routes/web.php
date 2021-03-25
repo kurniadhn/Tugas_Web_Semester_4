@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-// use App\Http\Controllers\ManagementUserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('user', [ManagementUserController::class, 'index']);
 Route::resource('user', 'ManagementUserController');
