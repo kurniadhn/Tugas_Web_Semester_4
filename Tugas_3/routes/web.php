@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('user', 'ManagementUserController');
+
+Route::get("/home", function(){
+  return view("home");
+});
